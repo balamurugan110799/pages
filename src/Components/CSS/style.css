@@ -1,0 +1,45 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Assets/Font/Roboto-Regular.ttf);
+ }
+ @font-face {
+   font-family: mySecondFont;
+   src: url(../Assets/Font/Roboto-Bold.ttf);
+}
+ *{
+    font-family: myFirstFont;
+ }
+ .title{
+   font-family: mySecondFont;
+ }
+ .center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .border-color{
+  border: 1px solid #ccc;
+ }
+
+ input:focus {
+  border: 1px solid hsl(235, 18%, 26%);
+}
+
+.error{
+  background-color: #f4dad7;
+  border:1px solid hsl(4, 100%, 67%);
+}
+
+.mobile-view-hide{
+  display: block;
+}
+
+.desktop-hide-view{
+  display: none;
+}
+.buttonclass{
+  position: absolute;
+  width: 90%;
+  margin: 20px 0px;
+}
